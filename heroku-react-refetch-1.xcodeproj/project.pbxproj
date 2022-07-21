@@ -6,11 +6,148 @@
 	objectVersion = 55;
 	objects = {
 
+/* Begin PBXFileReference section */
+		36EFDA102888E29100CC91A2 /* CODEOWNERS */ = {isa = PBXFileReference; lastKnownFileType = text; path = CODEOWNERS; sourceTree = "<group>"; };
+		36EFDA112888E29200CC91A2 /* package.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = package.json; sourceTree = "<group>"; };
+		36EFDA122888E29200CC91A2 /* CODE_OF_CONDUCT.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CODE_OF_CONDUCT.md; sourceTree = "<group>"; };
+		36EFDA132888E29200CC91A2 /* CHANGELOG.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CHANGELOG.md; sourceTree = "<group>"; };
+		36EFDA162888E29200CC91A2 /* UserWidgetComp.tsx */ = {isa = PBXFileReference; lastKnownFileType = text; path = UserWidgetComp.tsx; sourceTree = "<group>"; };
+		36EFDA172888E29200CC91A2 /* UserPage.tsx */ = {isa = PBXFileReference; lastKnownFileType = text; path = UserPage.tsx; sourceTree = "<group>"; };
+		36EFDA182888E29200CC91A2 /* UserWidgetFunc.tsx */ = {isa = PBXFileReference; lastKnownFileType = text; path = UserWidgetFunc.tsx; sourceTree = "<group>"; };
+		36EFDA192888E29200CC91A2 /* types.ts */ = {isa = PBXFileReference; lastKnownFileType = text; path = types.ts; sourceTree = "<group>"; };
+		36EFDA1A2888E29200CC91A2 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		36EFDA1B2888E29200CC91A2 /* tsconfig.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = tsconfig.json; sourceTree = "<group>"; };
+		36EFDA1C2888E29200CC91A2 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		36EFDA1D2888E29200CC91A2 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		36EFDA1E2888E29200CC91A2 /* package-lock.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "package-lock.json"; sourceTree = "<group>"; };
+		36EFDA202888E29200CC91A2 /* PromiseState.spec.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = PromiseState.spec.js; sourceTree = "<group>"; };
+		36EFDA222888E29200CC91A2 /* isPlainObject.spec.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = isPlainObject.spec.js; sourceTree = "<group>"; };
+		36EFDA232888E29200CC91A2 /* shallowEqual.spec.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = shallowEqual.spec.js; sourceTree = "<group>"; };
+		36EFDA242888E29200CC91A2 /* errors.spec.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = errors.spec.js; sourceTree = "<group>"; };
+		36EFDA262888E29200CC91A2 /* connect.spec.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = connect.spec.js; sourceTree = "<group>"; };
+		36EFDA272888E29200CC91A2 /* setup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = setup.js; sourceTree = "<group>"; };
+		36EFDA292888E29200CC91A2 /* api.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = api.md; sourceTree = "<group>"; };
+		36EFDA2B2888E29200CC91A2 /* index.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = index.js; sourceTree = "<group>"; };
+		36EFDA2D2888E29200CC91A2 /* shallowEqual.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = shallowEqual.js; sourceTree = "<group>"; };
+		36EFDA2E2888E29200CC91A2 /* buildRequest.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = buildRequest.js; sourceTree = "<group>"; };
+		36EFDA2F2888E29200CC91A2 /* checkTypes.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = checkTypes.js; sourceTree = "<group>"; };
+		36EFDA302888E29200CC91A2 /* errors.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = errors.js; sourceTree = "<group>"; };
+		36EFDA312888E29200CC91A2 /* handleResponse.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = handleResponse.js; sourceTree = "<group>"; };
+		36EFDA322888E29200CC91A2 /* isPlainObject.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = isPlainObject.js; sourceTree = "<group>"; };
+		36EFDA342888E29200CC91A2 /* connect.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = connect.js; sourceTree = "<group>"; };
+		36EFDA352888E29200CC91A2 /* index.d.ts */ = {isa = PBXFileReference; lastKnownFileType = text; path = index.d.ts; sourceTree = "<group>"; };
+		36EFDA362888E29200CC91A2 /* PromiseState.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = PromiseState.js; sourceTree = "<group>"; };
+		36EFDA372888E29200CC91A2 /* LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
 /* Begin PBXGroup section */
 		369E8C792888E20900C4A034 = {
 			isa = PBXGroup;
 			children = (
+				36EFDA132888E29200CC91A2 /* CHANGELOG.md */,
+				36EFDA122888E29200CC91A2 /* CODE_OF_CONDUCT.md */,
+				36EFDA102888E29100CC91A2 /* CODEOWNERS */,
+				36EFDA282888E29200CC91A2 /* docs */,
+				36EFDA142888E29200CC91A2 /* examples */,
+				36EFDA372888E29200CC91A2 /* LICENSE.md */,
+				36EFDA1C2888E29200CC91A2 /* logo.png */,
+				36EFDA1E2888E29200CC91A2 /* package-lock.json */,
+				36EFDA112888E29200CC91A2 /* package.json */,
+				36EFDA1D2888E29200CC91A2 /* README.md */,
+				36EFDA2A2888E29200CC91A2 /* src */,
+				36EFDA1F2888E29200CC91A2 /* test */,
 			);
+			sourceTree = "<group>";
+		};
+		36EFDA142888E29200CC91A2 /* examples */ = {
+			isa = PBXGroup;
+			children = (
+				36EFDA152888E29200CC91A2 /* ts */,
+			);
+			path = examples;
+			sourceTree = "<group>";
+		};
+		36EFDA152888E29200CC91A2 /* ts */ = {
+			isa = PBXGroup;
+			children = (
+				36EFDA162888E29200CC91A2 /* UserWidgetComp.tsx */,
+				36EFDA172888E29200CC91A2 /* UserPage.tsx */,
+				36EFDA182888E29200CC91A2 /* UserWidgetFunc.tsx */,
+				36EFDA192888E29200CC91A2 /* types.ts */,
+				36EFDA1A2888E29200CC91A2 /* .gitignore */,
+				36EFDA1B2888E29200CC91A2 /* tsconfig.json */,
+			);
+			path = ts;
+			sourceTree = "<group>";
+		};
+		36EFDA1F2888E29200CC91A2 /* test */ = {
+			isa = PBXGroup;
+			children = (
+				36EFDA202888E29200CC91A2 /* PromiseState.spec.js */,
+				36EFDA212888E29200CC91A2 /* utils */,
+				36EFDA252888E29200CC91A2 /* components */,
+				36EFDA272888E29200CC91A2 /* setup.js */,
+			);
+			path = test;
+			sourceTree = "<group>";
+		};
+		36EFDA212888E29200CC91A2 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				36EFDA222888E29200CC91A2 /* isPlainObject.spec.js */,
+				36EFDA232888E29200CC91A2 /* shallowEqual.spec.js */,
+				36EFDA242888E29200CC91A2 /* errors.spec.js */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		36EFDA252888E29200CC91A2 /* components */ = {
+			isa = PBXGroup;
+			children = (
+				36EFDA262888E29200CC91A2 /* connect.spec.js */,
+			);
+			path = components;
+			sourceTree = "<group>";
+		};
+		36EFDA282888E29200CC91A2 /* docs */ = {
+			isa = PBXGroup;
+			children = (
+				36EFDA292888E29200CC91A2 /* api.md */,
+			);
+			path = docs;
+			sourceTree = "<group>";
+		};
+		36EFDA2A2888E29200CC91A2 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				36EFDA2B2888E29200CC91A2 /* index.js */,
+				36EFDA2C2888E29200CC91A2 /* utils */,
+				36EFDA332888E29200CC91A2 /* components */,
+				36EFDA352888E29200CC91A2 /* index.d.ts */,
+				36EFDA362888E29200CC91A2 /* PromiseState.js */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		36EFDA2C2888E29200CC91A2 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				36EFDA2D2888E29200CC91A2 /* shallowEqual.js */,
+				36EFDA2E2888E29200CC91A2 /* buildRequest.js */,
+				36EFDA2F2888E29200CC91A2 /* checkTypes.js */,
+				36EFDA302888E29200CC91A2 /* errors.js */,
+				36EFDA312888E29200CC91A2 /* handleResponse.js */,
+				36EFDA322888E29200CC91A2 /* isPlainObject.js */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		36EFDA332888E29200CC91A2 /* components */ = {
+			isa = PBXGroup;
+			children = (
+				36EFDA342888E29200CC91A2 /* connect.js */,
+			);
+			path = components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
